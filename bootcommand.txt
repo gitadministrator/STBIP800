@@ -1,0 +1,13 @@
+Reboot the box
+press  ctrl+c
+SSBL prompt opens
+type
+debug -> switches to debug mode
+enter the command
+ifconfig eth0 -auto && boot -pkg 192.168.1.100:/ip800/spediredla/vmlinuz.pkg "root=/dev/nfs nfsroot=192.168.1.100:/exports/ip800/spediredla/rootdisk rw ip=:::::eth0:dhcp"
+once it executed 
+press enter
+type
+toish as info -> displays the applications installed with the app id
+toish as activate appid -> executes the application
+

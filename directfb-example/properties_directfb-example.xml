@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ApplicationProperties>
+  <PlatformVersion>2.1</PlatformVersion>
+  <Name>directfb-example</Name>
+  <Run>/usr/applications/directfb-example/directfb-example</Run>
+  <IsPopup>false</IsPopup>
+  <AutoRestart>false</AutoRestart>
+  <StartTimeout>30</StartTimeout>
+</ApplicationProperties>
